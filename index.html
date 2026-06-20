@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="board">
+                <div class="score-board">
+                    <h3 class="side">HOME</h3>
+                    <div class="score">
+                        <h1 class="points" id="home-el">0<h1>
+                    </div>
+                    <div class="score-pallete">
+                        <button class="btn" onclick="hIncrementByOne()">
+                            <p class="Inc-points">+1</p>
+                        </button>
+                        <button class="btn" onclick="hIncrementByTwo()">
+                            <p class="Inc-points">+2</p>
+                        </button>
+                        <button class="btn" onclick="hIncrementByThree()">
+                            <p class="Inc-points">+3</p>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="score-board">
+                    <h3 class="side">Away</h3>
+                    <div class="score">
+                        <h1 class="points" id="away-el">0<h1>
+                    </div>
+                    <div class="score-pallete">
+                        <button class="btn" onclick="aIncrementByOne()">
+                            <p class="Inc-points">+1</p>
+                        </button>
+                        <button class="btn" onclick="aIncrementByTwo()">
+                            <p class="Inc-points">+2</p>
+                        </button>
+                        <button class="btn" onclick="aIncrementByThree()">
+                            <p class="Inc-points">+3</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button id="new-game" onclick="newel()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
